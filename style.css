@@ -1,0 +1,330 @@
+/* style.css */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#f8f4ec;
+  color:#17325c;
+  font-family:'EB Garamond', serif;
+  overflow-x:hidden;
+}
+
+/* NAVBAR */
+
+.navbar{
+  width:100%;
+  padding:25px 7%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:1px solid #dbcba9;
+  background:#faf7f0;
+}
+
+.logo{
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
+
+.logo-box{
+  width:55px;
+  height:55px;
+  border:2px solid #c79b3b;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:28px;
+  font-family:'Cinzel', serif;
+  font-weight:bold;
+  border-radius:8px;
+}
+
+.logo-text h1{
+  font-size:26px;
+  font-family:'Cinzel', serif;
+}
+
+.logo-text p{
+  color:#9b7a34;
+  font-size:15px;
+}
+
+nav{
+  display:flex;
+  gap:30px;
+}
+
+nav a{
+  text-decoration:none;
+  color:#17325c;
+  font-size:17px;
+  transition:.3s;
+}
+
+nav a:hover{
+  color:#c79b3b;
+}
+
+/* HERO */
+
+.hero{
+  width:100%;
+  min-height:90vh;
+  padding:80px 7%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:60px;
+}
+
+.hero-left{
+  width:50%;
+}
+
+.hero-left h2{
+  font-size:75px;
+  font-family:'Cinzel', serif;
+  line-height:1.1;
+}
+
+.hero-left h3{
+  font-size:40px;
+  font-family:'Cinzel', serif;
+  margin-top:10px;
+  color:#9b7a34;
+}
+
+.line{
+  width:120px;
+  height:2px;
+  background:#c79b3b;
+  margin:30px 0;
+}
+
+.hero-subtitle{
+  font-size:30px;
+  line-height:1.5;
+  margin-bottom:30px;
+}
+
+.hero-text{
+  font-size:22px;
+  line-height:1.8;
+  color:#42536d;
+  margin-bottom:40px;
+}
+
+button{
+  padding:16px 34px;
+  border:none;
+  background:#c79b3b;
+  color:white;
+  font-size:17px;
+  cursor:pointer;
+  border-radius:4px;
+  transition:.3s;
+  font-family:'Cinzel', serif;
+}
+
+button:hover{
+  background:#aa8028;
+}
+
+.hero-right{
+  width:45%;
+}
+
+.hero-right img{
+  width:100%;
+  border-radius:12px;
+  border:3px solid #d6c19a;
+}
+
+/* SECTIONS */
+
+.section{
+  padding:90px 7%;
+}
+
+.section-title{
+  text-align:center;
+  font-size:45px;
+  margin-bottom:60px;
+  font-family:'Cinzel', serif;
+}
+
+/* CARDS */
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:30px;
+}
+
+.card{
+  background:#fffdf8;
+  border:1px solid #dbcba9;
+  padding:50px 35px;
+  text-align:center;
+  transition:.3s;
+}
+
+.card:hover{
+  transform:translateY(-8px);
+}
+
+.icon{
+  font-size:55px;
+  margin-bottom:25px;
+}
+
+.card h3{
+  font-size:32px;
+  margin-bottom:20px;
+  font-family:'Cinzel', serif;
+}
+
+.card p{
+  font-size:20px;
+  line-height:1.6;
+  color:#4e5d73;
+  margin-bottom:30px;
+}
+
+.card a{
+  text-decoration:none;
+  color:#b78826;
+  font-size:18px;
+}
+
+/* RESEARCH */
+
+.research-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+  gap:30px;
+}
+
+.research-box{
+  background:#fffdf8;
+  padding:40px;
+  border-left:5px solid #c79b3b;
+}
+
+.research-box h3{
+  font-size:30px;
+  margin-bottom:20px;
+  font-family:'Cinzel', serif;
+}
+
+.research-box p{
+  font-size:20px;
+  line-height:1.7;
+  color:#506075;
+}
+
+/* ABOUT */
+
+.about{
+  padding:100px 7%;
+  display:flex;
+  align-items:center;
+  gap:60px;
+}
+
+.about-image{
+  width:40%;
+}
+
+.about-image img{
+  width:100%;
+  border-radius:10px;
+}
+
+.about-text{
+  width:60%;
+}
+
+.about-text h2{
+  font-size:50px;
+  margin-bottom:30px;
+  font-family:'Cinzel', serif;
+}
+
+.about-text p{
+  font-size:24px;
+  line-height:1.8;
+  margin-bottom:35px;
+  color:#4b5d74;
+}
+
+/* FOOTER */
+
+footer{
+  background:#17325c;
+  color:white;
+  padding:70px 7%;
+  text-align:center;
+}
+
+footer h2{
+  font-size:38px;
+  margin-bottom:20px;
+  font-family:'Cinzel', serif;
+}
+
+footer p{
+  font-size:24px;
+  color:#e0c27d;
+  margin-bottom:35px;
+}
+
+.footer-links{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:25px;
+  margin-bottom:40px;
+}
+
+.footer-links a{
+  text-decoration:none;
+  color:white;
+  font-size:18px;
+}
+
+footer span{
+  color:#c9d3e3;
+  font-size:16px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:950px){
+
+  .hero,
+  .about{
+    flex-direction:column;
+  }
+
+  .hero-left,
+  .hero-right,
+  .about-image,
+  .about-text{
+    width:100%;
+  }
+
+  .hero-left h2{
+    font-size:55px;
+  }
+
+  nav{
+    display:none;
+  }
+
+}
