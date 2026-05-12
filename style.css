@@ -161,7 +161,12 @@ HERO
   z-index:2;
   max-width:1000px;
 }
-
+.hero-content{
+  position:relative;
+  z-index:2;
+  max-width:1000px;
+  padding-top:120px;
+}
 .hero-mini{
   display:inline-block;
 
