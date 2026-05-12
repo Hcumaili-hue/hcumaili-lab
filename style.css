@@ -187,16 +187,11 @@ HERO
 }
 
 .hero h1{
-
-  font-size:82px;
-
-  line-height:1.05;
-
+  font-size:88px;
+  line-height:1.1;
   font-family:'Cinzel', serif;
-
-  color:#f8f3e7;
-
-  text-shadow:0 4px 18px rgba(0,0,0,.85);
+  color:#f4e7c1;
+  text-shadow:0 2px 18px rgba(0,0,0,.85);
 }
 
 .hero-line{
