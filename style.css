@@ -205,18 +205,12 @@ HERO
 }
 
 .hero-text{
-
   font-size:28px;
-
-  line-height:1.8;
-
-  color:#f1e8d9;
-
+  line-height:1.9;
+  color:#f5f1e8;
   text-shadow:0 2px 14px rgba(0,0,0,.85);
-
-  margin-bottom:50px;
+  margin-bottom:45px;
 }
-
 /* =========================
 BUTTONS
 ========================= */
