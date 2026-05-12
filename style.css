@@ -130,7 +130,8 @@ HERO
 ========================= */
 
 .hero{
-  min-height:100vh;
+
+  min-height:78vh;
 
   position:relative;
 
@@ -140,41 +141,39 @@ HERO
 
   text-align:center;
 
-  padding:140px 6%;
+  padding:90px 6%;
 
   background:
-  linear-gradient(rgba(0,0,0,.72), rgba(0,0,0,.78)),
+  linear-gradient(rgba(0,0,0,.52), rgba(0,0,0,.58)),
   url('banner1.png');
 
-  background-size:cover;
+  background-size:contain;
   background-position:center;
+  background-repeat:no-repeat;
+
+  background-color:#050505;
 }
 
 .hero-overlay{
-  position:absolute;
-  inset:0;
-  backdrop-filter:blur(2px);
+  display:none;
 }
 
 .hero-content{
   position:relative;
   z-index:2;
   max-width:1000px;
+  padding-top:80px;
 }
-.hero-content{
-  position:relative;
-  z-index:2;
-  max-width:1000px;
-  padding-top:120px;
-}
+
 .hero-mini{
+
   display:inline-block;
 
   padding:12px 24px;
 
   border:1px solid rgba(199,155,59,.45);
 
-  background:rgba(0,0,0,.35);
+  background:rgba(0,0,0,.45);
 
   color:#d9b96d;
 
@@ -188,23 +187,38 @@ HERO
 }
 
 .hero h1{
-  font-size:88px;
-  line-height:1.08;
+
+  font-size:82px;
+
+  line-height:1.05;
+
   font-family:'Cinzel', serif;
-  color:#ffffff;
+
+  color:#f8f3e7;
+
+  text-shadow:0 4px 18px rgba(0,0,0,.85);
 }
 
 .hero-line{
+
   width:140px;
   height:2px;
+
   background:#c79b3b;
+
   margin:38px auto;
 }
 
 .hero-text{
+
   font-size:28px;
-  line-height:1.9;
-  color:#ece3d4;
+
+  line-height:1.8;
+
+  color:#f1e8d9;
+
+  text-shadow:0 2px 14px rgba(0,0,0,.85);
+
   margin-bottom:50px;
 }
 
