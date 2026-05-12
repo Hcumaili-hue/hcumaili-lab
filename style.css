@@ -822,3 +822,10 @@ RESPONSIVE
   }
 
 }
+.enter-library-btn,
+.hero-outline-btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+}
