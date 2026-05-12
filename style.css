@@ -387,3 +387,81 @@ nav{ display:none; }
   }
 
 }
+
+/* PROPHETIC TIMELINE */
+
+.timeline{
+  position:relative;
+  margin-top:70px;
+  padding-left:40px;
+  border-left:3px solid #c79b3b;
+}
+
+.timeline-item{
+  position:relative;
+  margin-bottom:60px;
+}
+
+.timeline-number{
+  position:absolute;
+  left:-65px;
+  top:0;
+  width:42px;
+  height:42px;
+  background:#17325c;
+  color:white;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:16px;
+  font-family:'Cinzel', serif;
+  border:3px solid #c79b3b;
+}
+
+.timeline-content{
+  background:#fffdf8;
+  border:1px solid #dbcba9;
+  padding:35px;
+  border-radius:6px;
+}
+
+.timeline-content h3{
+  font-size:32px;
+  margin-bottom:20px;
+  color:#17325c;
+  font-family:'Cinzel', serif;
+}
+
+.timeline-content p{
+  font-size:20px;
+  line-height:1.8;
+  color:#506075;
+}
+
+@media(max-width:850px){
+
+  .timeline{
+    padding-left:25px;
+  }
+
+  .timeline-number{
+    left:-48px;
+    width:34px;
+    height:34px;
+    font-size:14px;
+  }
+
+  .timeline-content{
+    padding:25px;
+  }
+
+  .timeline-content h3{
+    font-size:26px;
+  }
+
+  .timeline-content p{
+    font-size:18px;
+  }
+
+}
