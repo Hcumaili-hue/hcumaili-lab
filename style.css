@@ -333,3 +333,57 @@ nav{ display:none; }
   }
 
 }
+/* COMPARATIVE LAW */
+
+.table-wrapper{
+  width:100%;
+  overflow-x:auto;
+  margin-top:50px;
+  -webkit-overflow-scrolling:touch;
+}
+
+.comparison-table{
+  width:100%;
+  border-collapse:collapse;
+  min-width:900px;
+  background:#fffdf8;
+  border:1px solid #dbcba9;
+}
+
+.comparison-table th{
+  background:#17325c;
+  color:white;
+  padding:22px;
+  font-size:20px;
+  font-family:'Cinzel', serif;
+  text-align:left;
+}
+
+.comparison-table td{
+  padding:22px;
+  border-bottom:1px solid #e3d6ba;
+  font-size:20px;
+  line-height:1.8;
+  color:#4f6178;
+  vertical-align:top;
+}
+
+.comparison-table tr:hover{
+  background:#faf6ee;
+}
+
+.comparison-table td:first-child{
+  font-weight:600;
+  color:#17325c;
+  min-width:220px;
+}
+
+@media(max-width:850px){
+
+  .comparison-table th,
+  .comparison-table td{
+    font-size:18px;
+    padding:18px;
+  }
+
+}
