@@ -655,8 +655,7 @@ justify-content:center;
 align-items:center;
 }
 
-.about-profile{
-
+<img src="profile.png" alt="H. Cumaili" class="about-profile">
 width:120px !important;
 
 height:140px;
