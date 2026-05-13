@@ -657,11 +657,17 @@ align-items:center;
 
 .about-profile{
 
-width:320px;
+width:280px;
 
-max-width:100%;
+max-width:85%;
 
-border-radius:24px;
+height:auto;
+
+display:block;
+
+margin:auto;
+
+border-radius:22px;
 
 object-fit:cover;
 
