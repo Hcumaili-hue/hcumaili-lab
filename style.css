@@ -657,9 +657,7 @@ align-items:center;
 
 .about-profile{
 
-width:200px;
-
-max-width:70%;
+width:220px !important;
 
 height:auto;
 
@@ -676,11 +674,4 @@ border:2px solid #c79b3b;
 box-shadow:0 18px 45px rgba(0,0,0,.12);
 
 transition:.35s ease;
-}
-
-.about-profile:hover{
-
-transform:translateY(-6px);
-
-box-shadow:0 24px 60px rgba(0,0,0,.18);
 }
