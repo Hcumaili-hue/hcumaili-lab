@@ -342,40 +342,97 @@ LIBRARY
 PLATFORMS
 ========================= */
 
-.platforms{
-  padding:100px 7%;
+
+.links{
+
+  padding:110px 0;
 }
 
-.platform-grid{
+.links-container{
+
+  width:min(1120px,90%);
+
+  margin:auto;
+}
+
+.links-grid{
+
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-  gap:28px;
+
+  grid-template-columns:
+  repeat(auto-fit,minmax(220px,1fr));
+
+  gap:22px;
+
+  padding:0 10px;
 }
 
-.platform-card{
-  background:#111111;
-  border:1px solid #2c2c2c;
-  border-radius:18px;
-  padding:45px 20px;
+.link-box{
+
+  background:var(--paper);
+
+  border:1px solid var(--border);
+
+  border-radius:24px;
+
+  padding:28px 20px;
+
+  display:flex;
+
+  flex-direction:column;
+
+  align-items:center;
+
+  justify-content:center;
+
   text-align:center;
-  transition:.35s ease;
+
+  transition:.35s;
+
+  box-shadow:
+  0 10px 30px rgba(0,0,0,.04),
+  0 2px 8px rgba(0,0,0,.03);
+
+  transform-style:preserve-3d;
 }
 
-.platform-card:hover{
-  transform:translateY(-8px);
-  border-color:#c79b3b;
+.link-box:hover{
+
+  transform:
+  translateY(-6px)
+  rotateX(4deg)
+  rotateY(-4deg);
+
+  box-shadow:
+  0 25px 50px rgba(0,0,0,.10),
+  0 10px 20px rgba(0,0,0,.06);
+
+  background:#f8f4ee;
 }
 
-.platform-card i{
-  font-size:42px;
-  color:#d9b96d;
-  margin-bottom:22px;
+.link-icon{
+
+  font-size:2.2rem;
+
+  margin-bottom:16px;
+
+  color:var(--accent);
+
+  transition:.35s;
 }
 
-.platform-card span{
-  display:block;
-  color:#d9b96d;
-  font-size:22px;
+.link-box:hover .link-icon{
+
+  transform:translateZ(18px) scale(1.08);
+}
+
+.link-box p{
+
+  font-size:1rem;
+
+  color:var(--text);
+
+  letter-spacing:.3px;
 }
 
 /* =========================
