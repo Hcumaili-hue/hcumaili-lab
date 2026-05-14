@@ -665,6 +665,137 @@ footer span{
 
   font-size:14px;
 }
+/* =========================
+PLATFORMS
+========================= */
+
+.platforms{
+
+  padding:120px 7%;
+
+  background:#dce9f5;
+}
+
+.platform-grid{
+
+  display:grid;
+
+  grid-template-columns:
+  repeat(auto-fit,minmax(220px,1fr));
+
+  gap:28px;
+
+  margin-top:60px;
+}
+
+.link-box{
+
+  background:#111111;
+
+  border:1px solid #2c2c2c;
+
+  border-radius:22px;
+
+  padding:36px 24px;
+
+  text-align:center;
+
+  transition:.35s ease;
+}
+
+.link-box:hover{
+
+  transform:translateY(-8px);
+
+  border-color:var(--gold-dark);
+}
+
+.link-icon{
+
+  width:82px;
+  height:82px;
+
+  margin:auto;
+  margin-bottom:22px;
+
+  border-radius:50%;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.link-icon i{
+
+  font-size:34px;
+
+  color:white;
+}
+
+.link-box p{
+
+  color:var(--gold);
+
+  font-size:22px;
+
+  font-family:'Cinzel', serif;
+}
+
+/* =========================
+PLATFORM COLORS
+========================= */
+
+.reddit .link-icon{
+  background:#ff4500;
+}
+
+.wordpress .link-icon{
+  background:#21759b;
+}
+
+.orcid .link-icon{
+  background:#a6ce39;
+}
+
+.scholar .link-icon{
+  background:#4285f4;
+}
+
+.zenodo .link-icon{
+  background:#5c6bc0;
+}
+
+.osf .link-icon{
+  background:#8e24aa;
+}
+
+.medium .link-icon{
+  background:#000000;
+}
+
+.linkedin .link-icon{
+  background:#0a66c2;
+}
+
+.philpeople .link-icon{
+  background:#3949ab;
+}
+
+.ssrn .link-icon{
+  background:#1565c0;
+}
+
+.academia .link-icon{
+  background:#222222;
+}
+
+.email .link-icon{
+  background:var(--gold-dark);
+}
+
+.amazon .link-icon{
+  background:#ff9900;
+}
 
 /* =========================
 MOBILE
