@@ -715,3 +715,97 @@ MOBILE ARTICLE
   }
 
 }
+/* =========================
+COMPARISON TABLE
+========================= */
+
+.comparison-table{
+
+  width:100%;
+
+  overflow-x:auto;
+
+  margin-top:60px;
+
+  margin-bottom:80px;
+}
+
+.comparison-table table{
+
+  width:100%;
+
+  border-collapse:collapse;
+
+  background:#fffdf8;
+
+  border:1px solid #ddd1b8;
+
+  border-radius:18px;
+
+  overflow:hidden;
+
+  box-shadow:0 12px 35px rgba(0,0,0,.04);
+}
+
+.comparison-table th{
+
+  background:#111111;
+
+  color:#d9b96d;
+
+  padding:24px;
+
+  text-align:left;
+
+  font-size:18px;
+
+  font-family:'Cinzel', serif;
+
+  letter-spacing:.5px;
+}
+
+.comparison-table td{
+
+  padding:22px;
+
+  border-bottom:1px solid #e5dcc8;
+
+  color:#2f3e52;
+
+  font-size:17px;
+
+  line-height:1.8;
+}
+
+.comparison-table tr:last-child td{
+
+  border-bottom:none;
+}
+
+.comparison-table tr:hover{
+
+  background:#f8f3e8;
+
+  transition:.3s ease;
+}
+
+/* =========================
+MOBILE TABLE
+========================= */
+
+@media(max-width:700px){
+
+  .comparison-table table{
+
+    min-width:750px;
+  }
+
+  .comparison-table th,
+  .comparison-table td{
+
+    padding:18px;
+
+    font-size:15px;
+  }
+
+}
