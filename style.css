@@ -378,7 +378,7 @@ LIBRARY SYSTEM
 
 .library-card{
 
-  background:var(--black);
+  background:#111111;
 
   border:1px solid #2a2112;
 
@@ -388,14 +388,14 @@ LIBRARY SYSTEM
 
   transition:.35s ease;
 
-  box-shadow:var(--shadow);
+  box-shadow:0 12px 35px rgba(0,0,0,.05);
 }
 
 .library-card:hover{
 
   transform:translateY(-10px);
 
-  border-color:var(--gold-dark);
+  border-color:#8f7441;
 
   box-shadow:
   0 18px 40px rgba(0,0,0,.18);
@@ -414,7 +414,7 @@ LIBRARY SYSTEM
 
   background:#171717;
 
-  color:var(--gold);
+  color:#C79B3D;
 
   font-size:34px;
 
@@ -440,7 +440,7 @@ LIBRARY SYSTEM
 
   line-height:2;
 
-  color:#8f7441;
+  color:#cdbb94;
 
   margin-bottom:34px;
 }
@@ -458,9 +458,9 @@ LIBRARY SYSTEM
 
   background:#171717;
 
-  border:1px solid var(--gold-dark);
+  border:1px solid #8f7441;
 
-  color:var(--gold);
+  color:#C79B3D;
 
   font-family:'Cinzel', serif;
 
@@ -469,7 +469,7 @@ LIBRARY SYSTEM
 
 .library-enter:hover{
 
-  background:var(--black-soft);
+  background:#1b1b1b;
 
   transform:translateY(-3px);
 }
