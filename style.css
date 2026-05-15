@@ -514,13 +514,13 @@ ARTICLE SYSTEM
 
 .article-container h3{
 
-  font-size:2.2rem;
+  font-size:2rem;
 
-  line-height:1.5;
+  line-height:1.4;
 
-  margin-top:50px;
+  margin-top:70px;
 
-  margin-bottom:35px;
+  margin-bottom:24px;
 
   color:var(--gold-dark);
 
@@ -529,19 +529,18 @@ ARTICLE SYSTEM
 
 .article-container p{
 
-  max-width:780px;
+  max-width:720px;
 
-  margin-bottom:38px;
+  margin-bottom:24px;
 
-  font-size:1.32rem;
+  font-size:1.18rem;
 
-  line-height:2.3;
+  line-height:1.95;
 
   color:var(--text);
 
   text-align:justify;
 }
-
 .attributes-list{
 
   margin:
