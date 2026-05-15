@@ -427,7 +427,10 @@ LIBRARY SYSTEM
 
   font-size:30px;
 
-  color:var(--gold);
+  .library-card h3{
+
+  color:#ffffff;
+}
 
   margin-bottom:18px;
 
