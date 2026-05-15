@@ -355,13 +355,15 @@ RESEARCHER
 
   font-size:19px;
 }
-
 /* =========================
-LIBRARY
+LIBRARY SYSTEM
 ========================= */
 
 .library-system{
-  padding:40px 7% 120px;
+
+  padding:120px 7%;
+
+  background:#f3ede2;
 }
 
 .library-grid{
@@ -371,53 +373,22 @@ LIBRARY
   grid-template-columns:
   repeat(auto-fit,minmax(280px,1fr));
 
-  gap:35px;
+  gap:34px;
 }
 
 .library-card{
 
-  position:relative;
+  background:#fffdf8;
 
-  overflow:hidden;
+  border:1px solid var(--border);
 
-  display:flex;
-  flex-direction:column;
+  border-radius:26px;
 
-  padding:45px 30px;
-
-  border-radius:22px;
-
-  background:
-  linear-gradient(
-    180deg,
-    #111111 0%,
-    #090909 100%
-  );
-
-  border:1px solid #2c2c2c;
+  padding:42px 34px;
 
   transition:.35s ease;
-}
 
-.library-card::before{
-
-  content:"";
-
-  position:absolute;
-
-  top:0;
-  left:0;
-
-  width:100%;
-  height:2px;
-
-  background:
-  linear-gradient(
-    90deg,
-    transparent,
-    var(--gold-dark),
-    transparent
-  );
+  box-shadow:var(--shadow);
 }
 
 .library-card:hover{
@@ -425,47 +396,78 @@ LIBRARY
   transform:translateY(-10px);
 
   border-color:var(--gold-dark);
-
-  box-shadow:
-  0 20px 40px rgba(0,0,0,.12);
 }
 
-.library-number{
+.library-icon{
+
+  width:84px;
+  height:84px;
+
+  border-radius:22px;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  background:var(--black);
 
   color:var(--gold);
 
-  font-size:18px;
+  font-size:34px;
 
-  margin-bottom:14px;
-
-  font-family:'Cinzel', serif;
+  margin-bottom:28px;
 }
 
-.library-card h2,
 .library-card h3{
-
-  color:var(--gold);
 
   font-size:30px;
 
-  line-height:1.3;
+  color:var(--gold-dark);
 
-  margin-bottom:20px;
+  margin-bottom:18px;
 
   font-family:'Cinzel', serif;
 }
 
 .library-card p{
 
-  color:#d4ccbf;
+  font-size:19px;
 
-  font-size:18px;
+  line-height:2;
 
-  line-height:1.9;
+  color:var(--text-soft);
 
-  flex-grow:1;
+  margin-bottom:34px;
 }
 
+.library-enter{
+
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+
+  width:170px;
+  height:54px;
+
+  border-radius:8px;
+
+  background:var(--black);
+
+  border:1px solid var(--gold-dark);
+
+  color:var(--gold);
+
+  font-family:'Cinzel', serif;
+
+  transition:.3s ease;
+}
+
+.library-enter:hover{
+
+  background:var(--black-soft);
+
+  transform:translateY(-3px);
+}
 /* =========================
 ARTICLE SYSTEM
 ========================= */
