@@ -805,21 +805,6 @@ PLATFORM COLORS
 MOBILE
 ========================= */
 
-@media(max-width:900px){
-
-  nav{
-    display:none;
-  }
-
-  .hero-text-section h1{
-    font-size:56px;
-  }
-
-  .hero-text{
-    font-size:22px;
-  }
-}
-
 @media(max-width:768px){
 
   .article-container{
@@ -844,7 +829,15 @@ MOBILE
 
     line-height:2.1;
 
-    text-align:left;
+    text-align:left !important;
+
+    word-spacing:normal !important;
+
+    letter-spacing:normal !important;
+
+    text-justify:auto;
+
+    hyphens:none;
   }
 
   .attributes-list{
@@ -856,6 +849,12 @@ MOBILE
     font-size:1.05rem;
 
     line-height:2;
+
+    text-align:left !important;
+
+    word-spacing:normal !important;
+
+    letter-spacing:normal !important;
   }
 
   blockquote{
@@ -863,6 +862,8 @@ MOBILE
     padding:24px;
 
     font-size:1.12rem;
+
+    text-align:left;
   }
 
   .comparison-table table{
